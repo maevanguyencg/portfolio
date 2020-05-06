@@ -43,7 +43,68 @@ body
 /* MAIN WEBSITE */
 /* ----------------------- */
 .main-website {
-  align-content: flex-end;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 10px;
+  margin: 20px auto 0 auto;
+  color: #333;
+}
+
+/* SECTION DESCRIPTION */
+/* ----------------------- */
+.description {
+  text-align: center;
+}
+
+.description h1 {
+  color: #ffc200;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.description h2 {
+  font-size: 1.5em;
+}
+
+.pitch {
+  margin: 15px 0 0 0;
+  padding: 10px;
+  font-style: italic;
+  color: #555;
+  border-top: 1px solid #ffc200;
+  border-bottom: 1px solid #ffc200;
+}
+
+.description-links {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: auto;
+}
+
+.infos-link-item {
+  display: flex;
+  flex-direction: column;
+  color: #555;
+  text-decoration: none;
+}
+
+.infos-link-item:hover {
+  color: #d18f00;
+}
+
+.infos-link-item span {
+  display: block;
+  margin: 5px 0 0 0;
+}
+
+.infos-link-item:hover span {
+  text-decoration: underline;
+}
+
+.infos-link-item i {
+  font-size: 2em;
 }
 
 /* MAIN FOOTER */
