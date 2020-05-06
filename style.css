@@ -112,7 +112,8 @@ body
 
 /* SECTION PROJECTS */
 /* ----------------------- */
-.projects h2 {
+.projects h2,
+.resume h2 {
   text-align: center;
   max-width: 800px;
   background: #333;
@@ -120,7 +121,7 @@ body
   padding: 5px;
   font-size: 1.2em;
   font-weight: 400;
-  margin: 20px 0 0 0;
+  margin: 20px 0 30px 0;
 }
 
 .project-card {
@@ -128,7 +129,7 @@ body
   border: 1px solid #ffc200;
   padding: 10px;
   box-shadow: 0 0 10px 0 #aaa;
-  margin: 30px 0;
+  margin: 0 0 30px 0;
 }
 
 .project-card h3 {
@@ -156,6 +157,68 @@ body
   padding: 10px 0 0 0;
   display: flex;
   justify-content: space-between;
+}
+
+/* SECTION RESUME */
+/* ----------------------- */
+.resume {
+  padding: 20px 0;
+}
+
+.experiences h4 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #ffc200;
+  border-bottom: 2px solid #ffc200;
+}
+
+.exp-section {
+  padding: 10px 0;
+}
+
+.exp-item {
+  padding: 5px 0;
+  margin: 0 0 5px 0;
+  border-bottom: 1px solid #333;
+}
+
+.exp-item h5 {
+  font-size: 1.2em;
+}
+
+.exp-item:last-of-type {
+  border: none;
+}
+
+.exp-infos {
+  font-size: 0.9em;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-content {
+  list-style: none;
+}
+
+.exp-content em {
+  font-weight: 550;
+  font-style: normal;
+}
+
+.exp-content li {
+  margin: 5px 0;
+}
+
+.exp-content li a {
+  color: #d18f00;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.exp-content li a:hover {
+  color: #ffc200;
+  text-decoration: underline;
 }
 
 /* MAIN FOOTER */
