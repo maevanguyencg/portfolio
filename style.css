@@ -16,10 +16,13 @@ body
 /* MAIN NAV */
 /* ----------------------- */
 .main-nav {
+  width: 100%;
   padding: 0 20px;
   background: #333;
   border-top: 1px solid #777;
   border-bottom: 1px solid #777;
+  position: fixed;
+  top: 0;
 }
 
 .nav-items {
@@ -46,7 +49,7 @@ body
   width: 100%;
   max-width: 800px;
   padding: 20px 10px;
-  margin: 20px auto 0 auto;
+  margin: 50px auto 0 auto;
   color: #333;
 }
 
@@ -107,6 +110,54 @@ body
   font-size: 2em;
 }
 
+/* SECTION PROJECTS */
+/* ----------------------- */
+.projects h2 {
+  text-align: center;
+  max-width: 800px;
+  background: #333;
+  color: #ccc;
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 20px 0 0 0;
+}
+
+.project-card {
+  min-width: 300px;
+  border: 1px solid #ffc200;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 #aaa;
+  margin: 30px 0;
+}
+
+.project-card h3 {
+  border-bottom: 1px solid #ffc200;
+  padding: 0 0 5px 0;
+  color: #ffc200;
+}
+
+.project-description {
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.project-technical {
+  border-top: 1px solid #ffc200;
+  border-bottom: 1px solid #ffc200;
+  padding: 10px 0;
+}
+
+.project-card ul {
+  list-style: none;
+}
+
+.project-info {
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* MAIN FOOTER */
 /* ----------------------- */
 .main-footer {
@@ -117,7 +168,7 @@ body
 .footer-infos {
   background: #111;
   text-align: center;
-  padding: 5px 0;
+  padding: 10px 0;
   line-height: 1.5em;;
 }
 
@@ -152,4 +203,5 @@ body
   background: #333;
   border-top: 1px solid #777;
   border-bottom: 1px solid #777;
+  font-size: 0.9em;
 }
