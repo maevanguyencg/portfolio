@@ -133,9 +133,15 @@ body
 }
 
 .project-card h3 {
-  border-bottom: 1px solid #ffc200;
   padding: 0 0 5px 0;
   color: #ffc200;
+}
+
+.project-card h4 {
+  border-bottom: 1px solid #ffc200;
+  padding: 0 0 5px 0;
+  font-style: italic;
+  color: #888;
 }
 
 .project-description {
