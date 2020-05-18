@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+.banners img {
+  display: block;
+  width: 100%;
+}
+
+
 html,
 body
 {
@@ -113,7 +119,8 @@ body
 /* SECTION PROJECTS */
 /* ----------------------- */
 .projects h2,
-.resume h2 {
+.resume h2,
+.detailed-project h2 {
   text-align: center;
   max-width: 800px;
   background: #333;
@@ -165,13 +172,37 @@ body
   justify-content: space-between;
 }
 
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  display: inline-block;
+  margin: 8px 0 0 0;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 60px;
+  border: 2px solid #d18f00;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d18f00;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+  color: #d18f00;
+  background-color: #fff;
+}
+
 /* SECTION RESUME */
 /* ----------------------- */
 .resume {
   padding: 20px 0;
 }
 
-.experiences h4 {
+.experiences h4,
+.part-project h4 {
   font-size: 1.2em;
   text-transform: uppercase;
   color: #ffc200;
@@ -225,6 +256,36 @@ body
 .exp-content li a:hover {
   color: #ffc200;
   text-decoration: underline;
+}
+
+/* DETAILED PROJECT */
+/* ----------------------- */
+
+.detail-description {
+  margin: 15px 0;
+  padding: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+.detail-index {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.index-elt {
+  margin: 5px 0;
+}
+
+.index-elt a {
+  color: #d18f00;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.index-elt a:hover {
+  text-decoration: underline;
+  color: #ffc200;
 }
 
 /* MAIN FOOTER */
