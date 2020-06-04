@@ -19,6 +19,10 @@ body
   height: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 /* MAIN NAV */
 /* ----------------------- */
 .main-nav {
@@ -128,7 +132,7 @@ body
   padding: 5px;
   font-size: 1.2em;
   font-weight: 400;
-  margin: 20px 0 30px 0;
+  margin: 20px 0;
 }
 
 .project-card {
@@ -207,6 +211,7 @@ body
   text-transform: uppercase;
   color: #ffc200;
   border-bottom: 2px solid #ffc200;
+  margin: 10px 0 0 0;
 }
 
 .exp-section {
