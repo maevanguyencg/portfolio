@@ -206,16 +206,12 @@ ul {
 }
 
 .experiences h4,
-.part-project h4 {
+.part-project h3 {
   font-size: 1.2em;
   text-transform: uppercase;
   color: #ffc200;
   border-bottom: 2px solid #ffc200;
-  margin: 10px 0 0 0;
-}
-
-.exp-section {
-  padding: 10px 0;
+  margin: 15px 0;
 }
 
 .exp-item {
@@ -243,7 +239,7 @@ ul {
   list-style: none;
 }
 
-.exp-content em {
+em {
   font-weight: 550;
   font-style: normal;
 }
@@ -267,15 +263,40 @@ ul {
 /* ----------------------- */
 
 .detail-description {
-  margin: 15px 0;
-  padding: 10px;
+  margin: 0 0 15px 0;
   font-style: italic;
   color: #555;
 }
 
+.part-project h4 {
+  margin: 10px 0 5px 0;
+  text-decoration: underline;
+}
+
+.script p {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.dialogues {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dialogues h5 {
+  font-weight: 900;
+}
+
+.dialogues p {
+  font-style: normal;
+}
+
+.actions {
+  text-decoration: underline;
+}
+
 .detail-index {
   list-style: none;
-  margin: 20px 0;
 }
 
 .index-elt {
