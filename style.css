@@ -273,6 +273,10 @@ em {
   text-decoration: underline;
 }
 
+.part-project p {
+  margin: 5px 0;
+}
+
 .script p {
   margin: 5px 0;
   font-style: italic;
@@ -293,6 +297,15 @@ em {
 
 .actions {
   text-decoration: underline;
+}
+
+.screenshots img {
+  display: block;
+  min-width: 300px;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
 }
 
 .detail-index {
